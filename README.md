@@ -6,29 +6,27 @@ Name: Sathana Suganthasri
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-| 01.11.2023 | 0.0.1     | Projekt fertig erstellt.|
-| 01.11.2023 | 0.0.2     | Dokumentation fertig erstellt.|
+| 06.10.2023 | 0.0.1     | Projekt fertig erstellt.|
+| 06.10.2023 | 0.0.2     | Dokumentation fertig erstellt.|
 
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
 
-In unserem Projekt geht es um ein Schachspiel mit einer völlig anderen Figurendarstellung, die von Carina Sutter erstellt wurde. Die Spielregeln sind normal, wie bei anderen Schachspielen. Man kann hier mit zwei Personen spielen. Person Nummer 1 klickt auf eine Figur, und es werden die möglichen Züge angezeigt, wohin er seine Figur bewegen kann. Das Gleiche passiert auch bei seinem Gegner. Das Ziel ist es, den Gegner möglichst zu schlagen. Es gibt auch einen Neustart-Button, nachdem man das Spiel beendet hat.
+In meinem Projekt geht es darum, dass man Noten eingeben und am Schluss den Ergebnis angezeigt werden. 
 
-### 1.2 User Stories
+### 1.2 Anforderung
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1 | muss | Funktion | Als ein Spieler möchte ich die Möglichkeit haben, gegen meine Freunde zu spielen, damit ich schauen kann wer gewinnt. |
-| 2  | muss | Qualität | Als Spieler möchte ich, dass das Spiel ein gutes Darstellung hat, damit es nicht langweilig aussieht.|
-| 3  | muss | Funktion | Als ein Spieler möchte ich, das die Figuren bewegen wenn ich sie bewege, damit das Spiel auch funktioniert.|
-| 4  | muss | Funktion | Als Spieler möchte ich, das die Hälfte der Figuren separat sind, damit ich sehe, welche Figuren mir gehören und die andere Hälfte den Gegner gehören.|
-| 5  | muss | Funktion | Als Spieler möchte ich, dass das Spiel an das Schachregel orientiert, damit es wirklich nach Schachspiel ist.|
-| 6  | muss | Funktion | Als Spieler möchte ich, dass die Figuren unterschiedliche Eigenschaften/Bewegung haben, damit das Spiel interessanter wirkt.|
-| 7 | muss| Funktion| Als Spieler möchte ich, wenn ich den Gegners Figur geschlagen habe, dass Figur auch verschwindet, weil ansonsten weiss man nicht wer gewonnen hat.|
-| 8 | muss | Funktion| Als Spieler möchte ich, dass die Felder grün angezeigt werden, wenn ich ein Figur klicke, damit ich weiss in welche richtig mein Figur bewegen kann.|
-| 9 | muss | Funktion | Als Spieler möchte ich, nach dem ich das Spiel fertig gespielt habe, neu gestartet wird, damit ich das Spiel noch einmal spiele.|
+| 1 | muss | Funktion | Als benutzer möchte ich, dass man Noten eingeben kann. |
+| 2  | muss | Qualität | Das Programm soll in C# geschrieben werden.|
+| 3  | muss | Funktion | Die Fehlermeldungen sollen abgefangt werden.|
+| 4  | muss | Funktion | Man kann nur Zahlen von 1 bis 6 eingeben können.|
+| 5  | muss | Funktion | Es muss am Anfang eine Begrüssung haben.|
+| 6  | muss | Funktion | Am Schluss muss eine Bewertung angezeigt werde. Also es wird gesagt, ob meine Noten sehr gut, gut, genügendend oder ungenügend sind.|
+| 7 | muss| Qualität| Es sollen passende farben haben.|
 
 
 
@@ -62,7 +60,6 @@ In unserem Projekt geht es um ein Schachspiel mit einer völlig anderen Figurend
 Total: 9
 
 
-
 ## 3 Entscheiden
 
 Notenrechner im Visual Studio.
@@ -72,16 +69,15 @@ Notenrechner im Visual Studio.
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  | 20.09.2023 | Nicola | 45 min | 2x 45min |
-| 2.A  | 01.11.2023 | Carina | 2x 45min |12x 45min |
-| 3.A  | 18.10.2023 | Ava & Nicola | 50min | 3x 45min |
-| 4.A  | 18.10.2023 | Ava & Nicola | 20min | 2x 45min|
-| 5.A  | 18.10.2023 | Sathana | 60min | 2x 45min |
-| 6.A  | 01.11.2023 | Sathana | 70min | 3x 45min |
-| 7.A  | 01.11.2023 | Nicola | 90min | 2x 45min |
-| 8.A  | 01.11.2023 | Sathana | 45min | 50min |
-| 9.A  | 01.11.2023 | Nicola | 45min | 3x 45min |
-
+| 1.A  | 05.10.2023 | Sathana | 45 min | 2x 45min |
+| 2.A  | 05.10.2023 | Sathana | 2x 45min |12x 45min |
+| 3.A  | 05.10.2023 | Sathana | 50min | 3x 45min |
+| 4.A  | 05.10.2023 | Sathana | 20min | 2x 45min|
+| 5.A  | 05.10.2023 | Sathana | 60min | 2x 45min |
+| 6.A  | 05.10.2023 | Sathana | 70min | 3x 45min |
+| 7.A  | 05.10.2023 | Sathana | 90min | 2x 45min |
+| 8.A  | 05.10.2023 | Sathana | 45min | 50min |
+| 9.A  | 05.10.2023 | Sathana | 45min | 3x 45min |
 
 
 ## 5 Kontrollieren
@@ -90,14 +86,14 @@ Notenrechner im Visual Studio.
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  | 01.11.2023 | OK | Sathana |
-| 3.1  | 01.11.2023 | OK | Sathana |
-| 5.1  | 01.11.2023 | OK | Sathana |
-| 6.1  | 01.11.2023 | OK | Sathana |
-| 7.1  | 01.11.2023 | OK | Sathana |
-| 8.1  | 01.11.2023 | OK | Sathana |
-| 9.1  | 01.11.2023 | OK | Sathana |
-| 9.1  | 01.11.2023 | OK | Sathana |
+| 1.1  | 06.10.2023 | OK | Sathana |
+| 3.1  | 06.10.2023 | OK | Sathana |
+| 5.1  | 06.10.2023 | OK | Sathana |
+| 6.1  | 06.10.2023 | OK | Sathana |
+| 7.1  | 06.10.2023 | OK | Sathana |
+| 8.1  | 06.10.2023 | OK | Sathana |
+| 9.1  | 06.10.2023 | OK | Sathana |
+| 9.1  | 06.10.2023 | OK | Sathana |
 
 
 Das Spiel wurde im HP Windows 11 Pro getesten und funktioniert fehlerfrei.
