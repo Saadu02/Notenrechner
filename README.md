@@ -48,13 +48,13 @@ In meinem Projekt geht es darum, dass man Noten eingeben kann und später wird d
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A | 13.09.2023 | Sathana | Eingabe Noten Speicherung | 40min |
-| 1.B | 13.09.2023 | Sathana | Durchschnitt Speicherung  | 30min |
-| 4.A | 18.10.2023 | Sathana | Fehlermeldung abfangen | 30 min|         
-| 7.A | 18.10.2023 | Sathana | Noten-Skala | 20 min |
-| 8.A | 18.10.2023 | Sathana | Farbe | 15 min|
-| 5.A | 01.11.2023 | Sathana | Zahl zwischen 1 bis 6 | 25 min |
-| 7.B | 01.11.2023 | Sathana | Ergebnisse anzeigen| 15 min |
+| 1.A | 05.10.2023 | Sathana | Eingabe Noten Speicherung | 40min |
+| 1.B | 05.10.2023 | Sathana | Durchschnitt Speicherung  | 30min |
+| 4.A | 05.10.2023 | Sathana | Fehlermeldung abfangen | 30 min|         
+| 7.A | 05.10.2023 | Sathana | Noten-Skala | 20 min |
+| 8.A | 05.10.2023 | Sathana | Farbe | 15 min|
+| 5.A | 05.10.2023 | Sathana | Zahl zwischen 1 bis 6 | 25 min |
+| 7.B | 05.10.2023 | Sathana | Ergebnisse anzeigen| 15 min |
 
 
 Total: 7
