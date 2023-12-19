@@ -20,14 +20,14 @@ In meinem Projekt geht es darum, dass man Noten eingeben und am Schluss das Erge
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1 | muss | Funktion | Als Benutzer möchte ich, dass man Noten eingeben kann. |
+| 1 | muss | Funktion | Man muss Zahlen/Noten eingeben können. |
 | 2 | muss | Qualität | Das Programm soll in C# geschrieben werden.|
 | 3 | muss | Funktion | Nach jeder Eingabe, soll der Notendurschnitt zeigen. |
 | 4 | muss | Funktion | Die Fehlermeldungen sollen abfangen.|
 | 5 | muss | Funktion | Man kann nur Zahlen von 1 bis 6 eingeben können.|
 | 6 | muss | Funktion | Es muss am Anfang eine Begrüssung haben.|
 | 7 | muss | Funktion | Am Schluss muss eine Bewertung angezeigt werde. Also es wird gesagt, ob meine Noten sehr gut, gut, genügend oder ungenügend sind.|
-| 8 | muss| Qualität| Es sollen passende Farben haben Anhang von Ergebnissen.|
+| 8 | muss| Qualität| Es sollen passende Farben haben Anhang von Ergebnissen des Bewertungs.|
 
 
 
@@ -36,7 +36,7 @@ In meinem Projekt geht es darum, dass man Noten eingeben und am Schluss das Erge
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1 | Programm startet | 6 | Ihr Notenschnitt ist 6. Möchten sie weitere Noten eingeben? [y|n]|
-| 1.2 | Möchten sie weitere Noten eingeben | y | Geben sie ihre Note ein|
+| 1.2 | Möchten sie weitere Noten eingeben | y | Geben sie ihre Note ein: |
 | 3.1 | Ihr Notenschnitt ist ... Möchten sie weitere Noten eingeben | n | Ihr Noten schnitt ist und heisst .....  |
 | 4.1 | Programm startet | doqjd | Ungültige Eingabe. Bitte geben sie eine Zahl ein.|
 | 4.2 | Möchten Sie weitere Noten eingeben? | fojwe | Bitte geben Sie eine y oder n.|
