@@ -1,7 +1,5 @@
 # Notenrechner
 
-# Projekt-Dokumentation
-
 Name: Sathana Suganthasri
 
 | Datum | Version | Zusammenfassung                                              |
@@ -14,7 +12,7 @@ Name: Sathana Suganthasri
 
 ### 1.1 Ihr Projekt
 
-In meinem Projekt geht es darum, dass man Noten eingeben und am Schluss das Ergebnis angezeigt werden. 
+In meinem Projekt geht es darum, dass man Noten eingeben kann und später wird den Durchschnitt angezeigt mit Bewertung. 
 
 ### 1.2 Anforderung
 
@@ -59,7 +57,7 @@ In meinem Projekt geht es darum, dass man Noten eingeben und am Schluss das Erge
 | 7.B | 01.11.2023 | Sathana | Ergebnisse anzeigen| 15 min |
 
 
-Total: 9
+Total: 7
 
 
 ## 3 Entscheiden
@@ -87,14 +85,12 @@ Ich habe mich entschieden den Notenschnittrechner im Visual Studio zu implementi
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
 | 1.1  | 06.10.2023 | OK | Sathana |
-| 3.1  | 06.10.2023 | OK | Sathana |
-| 5.1  | 06.10.2023 | OK | Sathana |
-| 6.1  | 06.10.2023 | OK | Sathana |
+| 1.2  | 06.10.2023 | OK | Sathana |
+| 4.1  | 06.10.2023 | OK | Sathana |
 | 7.1  | 06.10.2023 | OK | Sathana |
 | 8.1  | 06.10.2023 | OK | Sathana |
-| 9.1  | 06.10.2023 | OK | Sathana |
-| 9.1  | 06.10.2023 | OK | Sathana |
-
+| 5.1  | 06.10.2023 | OK | Sathana |
+| 7.2  | 06.10.2023 | OK | Sathana |
 
 Das Spiel wurde im HP Windows 11 Pro getestet und funktioniert fehlerfrei.
 
