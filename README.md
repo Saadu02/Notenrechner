@@ -25,7 +25,7 @@ In meinem Projekt geht es darum, dass man Noten eingeben kann und später wird d
 | 5 | muss | Funktion | Man kann nur Zahlen von 1 bis 6 eingeben können.|
 | 6 | muss | Funktion | Es muss am Anfang eine Begrüssung haben.|
 | 7 | muss | Funktion | Am Schluss muss eine Bewertung angezeigt werde. Also es wird gesagt, ob meine Noten sehr gut, gut, genügend oder ungenügend sind.|
-| 8 | muss| Qualität| Es sollen passende Farben haben Anhang von Ergebnissen des Bewertungs.|
+| 8 | muss| Qualität| Es sollen passende Farben haben Anhang von Ergebnissen des Bewertungs anzeigen.|
 
 
 
