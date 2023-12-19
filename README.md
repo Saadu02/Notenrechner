@@ -21,12 +21,13 @@ In meinem Projekt geht es darum, dass man Noten eingeben und am Schluss den Erge
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1 | muss | Funktion | Als benutzer möchte ich, dass man Noten eingeben kann. |
-| 2  | muss | Qualität | Das Programm soll in C# geschrieben werden.|
-| 3  | muss | Funktion | Die Fehlermeldungen sollen abgefangt werden.|
-| 4  | muss | Funktion | Man kann nur Zahlen von 1 bis 6 eingeben können.|
-| 5  | muss | Funktion | Es muss am Anfang eine Begrüssung haben.|
-| 6  | muss | Funktion | Am Schluss muss eine Bewertung angezeigt werde. Also es wird gesagt, ob meine Noten sehr gut, gut, genügendend oder ungenügend sind.|
-| 7 | muss| Qualität| Es sollen passende farben haben.|
+| 2 | muss | Qualität | Das Programm soll in C# geschrieben werden.|
+| 3 | muss | Funktion | Nach jedere eingabe, soll der NotenDurschnitt zeigen. |
+| 4 | muss | Funktion | Die Fehlermeldungen sollen abgefangt werden.|
+| 5 | muss | Funktion | Man kann nur Zahlen von 1 bis 6 eingeben können.|
+| 6 | muss | Funktion | Es muss am Anfang eine Begrüssung haben.|
+| 7 | muss | Funktion | Am Schluss muss eine Bewertung angezeigt werde. Also es wird gesagt, ob meine Noten sehr gut, gut, genügendend oder ungenügend sind.|
+| 8 | muss| Qualität| Es sollen passende farben haben anhang von Ergebnissen.|
 
 
 
@@ -34,28 +35,29 @@ In meinem Projekt geht es darum, dass man Noten eingeben und am Schluss den Erge
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  | Spiel startet | Person 1 klickt ein Figur und bewegt sie. | Gegner ist dran.|
-| 3.1  | Spiel startet | Person 1 klickt ein Figur und wählt auf ein grünes Feld. | Figur bewegt sich.|
-| 5.1  | Spiel startet | Person 1 klickt den Turm (Zombie mit violette Hose und Erwachsen aussieht).| Der Turm kann nur Horizontal und Vertikal bewegen. |
-| 6.1  | Spiel startet | Person 1 klickt den Bauer (Zombie mit violette Hose und wie ein Kind aussieht.)| kann nur zwei Schritt vorwärts bewegen.|
-| 7.1 | Spiel läuft | Person 1 klickt seine Figur auf den Gegner seine Figur. | Gegners Figur verschwindet.|
-| 8.1 | Spiel startet | Person 1 klickt sein Figur. | Wege werden in grün angezeigt.|
-| 9.1 | Spiel beendet | Person 1 klickt Restart. | Das Spiel wird neu gestartet.|
-| 9.1  | Spiel beendet | Person 1 klickt Exit. | Das Spiel schliesst.|
+| 1.1 | Programm startet | 6 | Ihr Notenschnitt ist 6. Möchten sie weitere Noten eingeben? [y|n]|
+| 1.2 | Möchen sie weitere Noten eingeben | y | Geben sie ihre Note ein|
+| 3.1 | Ihr Notenschnitt ist ... Möchten sie weitere Noten eingeben | n | Ihr Noten schnitt ist und heisst .....  |
+| 4.1 | Programm startet | doqjd | Ungültige Eingabe. Bitte geben sie eine Zahl ein.|
+| 4.2 | Möchten Sie weitere Noten eingeben? | fojwe | Bitte geben Sie eine y oder n.|
+| 5.1 | Programm startet | 10 | Bitte geben sie eine Zahl zwischen 1 bis 6. |
+| 6.1 | Program startet: Herzlich Willkommen im Notenrechner | - | - |
+| 7.1 | Zahlen eingegeben | n | Ihr Notenschnitt ist 3.125 und heisst ungenügend. |
+
+
 
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A | 13.09.2023 | Nicola | für Zwei Spieler erstellen | 45min |
-| 2.A | 13.09.2023 | Carina | Darstellung/ Design | 2 x 45min |
-| 3.A | 18.10.2023 | Ava & Nicola | Figuren Bewegung | 50 min|             |
-| 4.A | 18.10.2023 | Ava & Sathana | Zwei Untersciedlichkeit der Figur | 20 min | |
-| 5.A | 18.10.2023 | Sathana | Schachregel | 60 min|
-| 6.A | 01.11.2023 | Sathana | Figuren Eigenschaften | 70 min |
-| 7.A | 01.11.2023 | Nicola | Figuren verschwindet, nach dem sie geschlagen wurde.| 90min |
-| 8.A | 01.11.2023 | Sathana | man klickt eien Figur und es werden die Richtungen  in grün angezeigt. | 45 min|
-| 9.A | 01.11.2023 | Nicola | Restart button | 45 min |
+| 1.A | 13.09.2023 | Sathana | Eingabe Noten speicherung | 40min |
+| 1.B | 13.09.2023 | Sathana | Durchschnitt speicherung  | 30min |
+| 4.A | 18.10.2023 | Sathana | Fehlermeldung abfangen | 30 min|         
+| 7.A | 18.10.2023 | Sathana | NotenSkala | 20 min |
+| 8.A | 18.10.2023 | Sathana | Farbe | 15 min|
+| 5.A | 01.11.2023 | Sathana | Zahl zwischen 1 bis 6 | 25 min |
+| 7.B | 01.11.2023 | Sathana | Ergebnisse anzeigen| 15 min |
+
 
 Total: 9
 
@@ -69,15 +71,13 @@ Notenrechner im Visual Studio.
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  | 05.10.2023 | Sathana | 45 min | 2x 45min |
-| 2.A  | 05.10.2023 | Sathana | 2x 45min |12x 45min |
-| 3.A  | 05.10.2023 | Sathana | 50min | 3x 45min |
-| 4.A  | 05.10.2023 | Sathana | 20min | 2x 45min|
-| 5.A  | 05.10.2023 | Sathana | 60min | 2x 45min |
-| 6.A  | 05.10.2023 | Sathana | 70min | 3x 45min |
-| 7.A  | 05.10.2023 | Sathana | 90min | 2x 45min |
-| 8.A  | 05.10.2023 | Sathana | 45min | 50min |
-| 9.A  | 05.10.2023 | Sathana | 45min | 3x 45min |
+| 1.A  | 05.10.2023 | Sathana | 40min | 35min |
+| 1.B  | 05.10.2023 | Sathana | 30min | 20min |
+| 4.A  | 05.10.2023 | Sathana | 30min | 40min |
+| 7.A  | 05.10.2023 | Sathana | 20min | 20min|
+| 8.A  | 05.10.2023 | Sathana | 15min | 10min |
+| 5.A  | 05.10.2023 | Sathana | 25min | 25min |
+| 7.b  | 05.10.2023 | Sathana | 15min | 15min |
 
 
 ## 5 Kontrollieren
