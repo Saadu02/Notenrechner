@@ -64,7 +64,7 @@ Total: 9
 
 ## 3 Entscheiden
 
-Notenrechner im Visual Studio.
+Ich habe mich entschieden den Notenschnittrechner im Visual Studio zu implementieren.
 
 
 ## 4 Realisieren
