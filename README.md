@@ -34,7 +34,7 @@ In meinem Projekt geht es darum, dass man Noten eingeben kann und später wird d
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1 | Programm startet | 6 | Ihr Notenschnitt ist 6. Möchten sie weitere Noten eingeben? y oder n | 
-| 1.2 | Möchten sie weitere Noten eingeben | y | Geben sie ihre Note ein: |
+| 1.2 | Möchten sie weitere Noten eingeben y oder n? | y | Geben sie ihre Note ein: |
 | 3.1 | Ihr Notenschnitt ist ... Möchten sie weitere Noten eingeben | n | Ihr Noten schnitt ist und heisst .....  |
 | 4.1 | Programm startet | doqjd | Ungültige Eingabe. Bitte geben sie eine Zahl ein.|
 | 4.2 | Möchten Sie weitere Noten eingeben? | fojwe | Bitte geben Sie eine y oder n.|
