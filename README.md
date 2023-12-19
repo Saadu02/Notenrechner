@@ -39,7 +39,7 @@ In meinem Projekt geht es darum, dass man Noten eingeben kann und später wird d
 | 4.1 | Programm startet | doqjd | Ungültige Eingabe. Bitte geben sie eine Zahl ein.|
 | 4.2 | Möchten Sie weitere Noten eingeben? | fojwe | Bitte geben Sie eine y oder n.|
 | 5.1 | Programm startet | 10 | Bitte geben sie eine Zahl zwischen 1 bis 6. |
-| 6.1 | Programm startet: Herzlich Willkommen im Notenrechner | - | - |
+| 6.1 | Programm startet: Herzlich Willkommen im Notenrechner. Bitte geben sie ihre Note ein:  | 3 | Ihr Notenschnitt ist eine 3. Möchten Sie weitere Noten eingeben y oder n? |
 | 7.1 | Zahlen eingegeben | n | Ihr Notenschnitt ist 3.125 und heisst ungenügend. |
 
 
