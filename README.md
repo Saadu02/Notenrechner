@@ -86,10 +86,11 @@ Ich habe mich entschieden den Notenschnittrechner im Visual Studio zu implementi
 | 1.1  | 06.10.2023 | OK | Sathana |
 | 1.2  | 06.10.2023 | OK | Sathana |
 | 4.1  | 06.10.2023 | OK | Sathana |
+| 4.2  | 06.10.2023 | NOK| Sathana |
 | 7.1  | 06.10.2023 | OK | Sathana |
 | 8.1  | 06.10.2023 | OK | Sathana |
 | 5.1  | 06.10.2023 | OK | Sathana |
 | 7.2  | 06.10.2023 | OK | Sathana |
 
-Das Spiel wurde im HP Windows 11 Pro getestet und funktioniert fehlerfrei.
+Das Spiel wurde auf einem HP Windows 11 Pro getestet. Es wurde ein Fehler festgestellt: Bei der Eingabe von 4.2 werden die Fehler nicht abgefangen. Ansonsten funktioniert alles einwandfrei.
 
