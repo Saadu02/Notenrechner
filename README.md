@@ -33,15 +33,14 @@ In meinem Projekt geht es darum, dass man Noten eingeben kann und später wird d
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1 | Programm startet | 6 | Ihr Notenschnitt ist 6. Möchten sie weitere Noten eingeben? y oder n | 
-| 1.2 | Möchten sie weitere Noten eingeben y oder n? | y | Geben sie ihre Note ein: |
-| 3.1 | Ihr Notenschnitt ist ... Möchten sie weitere Noten eingeben y oder n? | n | Ihr Noten schnitt ist und heisst .....  |
-| 4.1 | Programm startet | doqjd | Ungültige Eingabe. Bitte geben sie eine Zahl ein.|
-| 4.2 | Möchten Sie weitere Noten eingeben y oder n?| fojwe | Bitte geben Sie eine y oder n.|
-| 5.1 | Programm startet | 10 | Bitte geben sie eine Zahl zwischen 1 bis 6. |
-| 6.1 | Programm startet: Herzlich Willkommen im Notenrechner. Bitte geben sie ihre Note ein:  | 3 | Ihr Notenschnitt ist eine 3. Möchten Sie weitere Noten eingeben y oder n? |
-| 7.1 | Zahlen eingegeben | n | Ihr Notenschnitt ist 3.125 und heisst ungenügend. |
-
+| 1.1 | Programm startet: Geben Sie Ihre Note ein: | 6 | Ihr neuer Notenschnitt ist 6. Möchten sie weitere Noten eingeben? y oder n | 
+| 1.2 | Möchten sie weitere Noten eingeben y oder n? | y | Geben sie Ihre Note ein: |
+| 3.1 | Ihr neuer Notenschnitt ist ... Möchten sie weitere Noten eingeben y oder n? | n | Ihre Notenschnitt wäre .... und das heisst .....  |
+| 4.1 | Programm startet | doqjd | Ihre Eingabe ist ungültig. Bitte geben Sie eine Zahl ein.|
+| 4.2 | Möchten Sie weitere Noten eingeben y oder n?| fojwe | Ihre Eingabe ist ungültig. Bitte geben Sie eine y oder n.|
+| 5.1 | Programm startet | 10 | Bitte geben Sie eine Zahl zwischen 1 und 6 ein. |
+| 6.1 | Programm startet: Willkommen zum Notenrechner! Geben Sie Ihre Note ein:  | 3 | Ihr neuer Notenschnitt ist 3. Möchten Sie weitere Noten eingeben y oder n? |
+| 7.1 | 2 | n | Ihr Notenschnitt wäre 3.125 und heisst ungenügend. |
 
 
 ## 2 Planen
