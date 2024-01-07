@@ -25,7 +25,8 @@ In meinem Projekt geht es darum, dass man Noten eingeben kann und später wird d
 | 5 | muss | Funktion | Man kann nur Zahlen von 1 bis 6 eingeben können.|
 | 6 | muss | Funktion | Am Anfang sollte eine Begrüßung vorhanden sein.|
 | 7 | muss | Funktion | Am Ende sollte eine Bewertung angezeigt werden, die angibt, ob die Noten sehr gut, gut, genügend oder ungenügend sind.|
-| 8 | muss| Qualität| Die Anzeige der Bewertungen sollte entsprechende Farben entsprechend den Ergebnissen haben.|
+| 8 | muss | Qualität | Die Anzeige der Bewertungen sollte entsprechende Farben entsprechend den Ergebnissen haben.|
+| 9 | muss | Qualität | Ein Ton muss abgespielt werden bei einer falschen Eingabe. |
 
 
 
@@ -41,6 +42,7 @@ In meinem Projekt geht es darum, dass man Noten eingeben kann und später wird d
 | 5.1 | Programm startet | 10 | Bitte geben Sie eine Zahl zwischen 1 und 6 ein. |
 | 6.1 | Programm startet: Willkommen zum Notenrechner! Geben Sie Ihre Note ein:  | 3 | Ihr neuer Notenschnitt ist 3. Möchten Sie weitere Noten eingeben y oder n? |
 | 7.1 | 2 | n | Ihr Notenschnitt wäre 3.125 und heisst ungenügend. |
+| 8.1 | Möchten Sie weitere Noten eingeben y oder n?| 45erdf | *Beep* |
 
 
 ## 2 Planen
@@ -54,6 +56,7 @@ In meinem Projekt geht es darum, dass man Noten eingeben kann und später wird d
 | 8.A | 05.10.2023 | Sathana | Farbe | 15 min|
 | 5.A | 05.10.2023 | Sathana | Zahl zwischen 1 bis 6 | 25 min |
 | 7.B | 05.10.2023 | Sathana | Ergebnisse anzeigen| 15 min |
+| 8.A | 05.10.2023 | Sathana | Ton abspielen | 20 min |
 
 
 Total: 7
@@ -61,7 +64,7 @@ Total: 7
 
 ## 3 Entscheiden
 
-Ich habe mich entschieden den Notenschnittrechner im Visual Studio zu implementieren.
+Ich habe mich entschieden den Notenschnittrechner im Visual Studio in C# zu implementieren.
 
 
 ## 4 Realisieren
@@ -74,7 +77,8 @@ Ich habe mich entschieden den Notenschnittrechner im Visual Studio zu implementi
 | 7.A  | 05.10.2023 | Sathana | 20min | 20min|
 | 8.A  | 05.10.2023 | Sathana | 15min | 10min |
 | 5.A  | 05.10.2023 | Sathana | 25min | 25min |
-| 7.b  | 05.10.2023 | Sathana | 15min | 15min |
+| 7.B  | 05.10.2023 | Sathana | 15min | 15min |
+| 8.A  | 05.10.2023 | Sathana | 20min | 15min |
 
 
 ## 5 Kontrollieren
@@ -86,11 +90,12 @@ Ich habe mich entschieden den Notenschnittrechner im Visual Studio zu implementi
 | 1.1  | 06.10.2023 | OK | Sathana |
 | 1.2  | 06.10.2023 | OK | Sathana |
 | 4.1  | 06.10.2023 | OK | Sathana |
-| 4.2  | 06.10.2023 | NOK| Sathana |
+| 4.2  | 06.10.2023 | OK| Sathana |
 | 7.1  | 06.10.2023 | OK | Sathana |
 | 8.1  | 06.10.2023 | OK | Sathana |
 | 5.1  | 06.10.2023 | OK | Sathana |
 | 7.2  | 06.10.2023 | OK | Sathana |
+| 8.1  | 06.10.2023 | OK | Sathana |
 
-Das Spiel wurde auf einem HP Windows 11 Pro getestet. Es wurde ein Fehler festgestellt: Bei der Eingabe von 4.2 werden die Fehler nicht abgefangen. Ansonsten funktioniert alles einwandfrei.
+Das Spiel wurde auf einem HP Windows 11 Pro getestet. Ab und zu mal hat der Ton bei fehlerhaften Eingaben nicht abgespielt. Ansonsten funktioniert alles einwandfrei.
 
