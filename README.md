@@ -12,7 +12,7 @@ Name: Sathana Suganthasri
 
 ### 1.1 Ihr Projekt
 
-In meinem Projekt geht es darum, dass man Noten eingeben kann und später wird den Durchschnitt angezeigt mit Bewertung. 
+In meinem Projekt geht es darum, dass man Noten eingeben kann und später wird der Durchschnitt mit einer Bewertung angezeigt.
 
 ### 1.2 Anforderung
 
@@ -97,5 +97,5 @@ Ich habe mich entschieden den Notenschnittrechner im Visual Studio in C# zu impl
 | 7.2  | 06.10.2023 | OK | Sathana |
 | 8.1  | 06.10.2023 | OK | Sathana |
 
-Das Spiel wurde auf einem HP Windows 11 Pro getestet. Ab und zu mal hat der Ton bei fehlerhaften Eingaben nicht abgespielt. Ansonsten funktioniert alles einwandfrei.
+Das Spiel wurde auf einem HP Windows 11 Pro getestet. Ab und zu mal hat der Ton bei fehlerhaften Eingaben nicht abgespielt oder ein bisschen später abgespielt. Ansonsten funktioniert alles einwandfrei.
 
