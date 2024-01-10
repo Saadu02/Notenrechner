@@ -38,7 +38,7 @@ In meinem Projekt geht es darum, dass man Noten eingeben kann und später wird d
 | 1.2 | Möchten sie weitere Noten eingeben y oder n? | y | Geben sie Ihre Note ein: |
 | 3.1 | Ihr neuer Notenschnitt ist ... Möchten sie weitere Noten eingeben y oder n? | n | Ihre Notenschnitt wäre .... und das heisst .....  |
 | 4.1 | Programm startet | doqjd | Ihre Eingabe ist ungültig. Bitte geben Sie eine Zahl ein.|
-| 4.2 | Möchten Sie weitere Noten eingeben y oder n?| fojwe | Ihre Eingabe ist ungültig. Bitte geben Sie eine y oder n.|
+| 4.2 | Möchten Sie weitere Noten eingeben y oder n?| fojwe | Ihre Eingabe ist ungültig. Bitte geben Sie eine ja für y oder nein für n.|
 | 5.1 | Programm startet | 10 | Bitte geben Sie eine Zahl zwischen 1 und 6 ein. |
 | 6.1 | Programm startet: Willkommen zum Notenrechner! Geben Sie Ihre Note ein:  | 3 | Ihr neuer Notenschnitt ist 3. Möchten Sie weitere Noten eingeben y oder n? |
 | 7.1 | 2 | n | Ihr Notenschnitt wäre 3.125 und heisst ungenügend. |
